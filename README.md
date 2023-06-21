@@ -1,21 +1,58 @@
-# Dev Test
+# Cth-challenge
 
-## Exercise
+- [Introduction](#introduction)
+- [Stacks](#stacks)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
 
-Create a basic web application using next.js + React to display a login page. The login page should include fields for email and password. The page doesn't need to have actual functionality, but it should have the following feature:
 
-- When the user enters a value that is not a valid email address in the email field, the box should have a red border and display a notification informing the user that the entered value is not a valid email.
+## Introduction
 
-You have the freedom to choose any component library you prefer.
+The challenge was about creating a login form with Email Validation.
+The page doesn't need to have actual functionality, but it should have the following feature:
+- When the user enters a value that is not a valid email address in the email field, the box should have a red border and display a notification informing the user that the entered value is not a valid email
 
-Additionally, please include a Dockerfile that enables us to run the next application easily by running the Docker container.
+## Table of Contents
 
-# Other notes
+## Stacks
+- React
+- Typescript
+- NextJS
+- Docker
 
-While we are not monitoring the time, the exercise should take you less than an hour to complete. Consider things like code quality, proper git usage (such a granular commits, meaningful commit messages etc.), ease of use etc.
+## Features
 
-## How to submit
+- Email validation
+- Form Validator for disabling the submit button
 
-1. Fork this repository to a public one on your account.
-2. Complete the exercise.
-3. When you're done, submit your fork as a pull request back to this repository.
+## Prerequisites
+
+Please make sure that your machine has already installed:
+- Node
+- NPM
+- Docker
+
+## Installation
+
+Provide step-by-step instructions on how to install and set up the project. Include any necessary commands or configurations. If Docker is used, provide instructions for setting up the project with Docker.
+
+1. Clone the repository:
+
+   ```bash
+   https://github.com/omar-alsadi/cth-challenge.git
+
+2. Go to the project folder
+
+3. Open it via IDE
+
+4. Install dependencies
+  ``` npm i
+or
+  ``` yarn add
+
+5. Run the app
+  ``` npm run dev
+
+6. To run docker
+  ``` docker build -t next-app .
